@@ -84,5 +84,10 @@ Dabs.ver; // float
 
 ### Managing tab in element
 ```js
-MyTab
+myTabEl.on(...);
+myTabEl.off(...);
+myTabEl.change(...);
+myTabEl.selectTab(...);
+myTabEl.getActiveTab(...);
+myTabEl.on(...);
 ```
