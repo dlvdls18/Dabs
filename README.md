@@ -29,5 +29,3 @@ Dabs.connect({
   1: "pageMarketplace"
 });
 ```
-
-clicked
