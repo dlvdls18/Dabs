@@ -45,5 +45,5 @@ Dabs.ver; // float
 ## Tabs
 ### Assigning element as parent tab
 ```html
-
+<div data-tab="MyTab"></div>
 ```
