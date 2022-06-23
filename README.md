@@ -81,3 +81,6 @@ Dabs.ver; // float
  -->
 <div class="dab" data-active=""></div>
 ```
+
+### Managing tab in element
+```
