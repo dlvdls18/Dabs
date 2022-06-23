@@ -101,5 +101,6 @@ myTabEl.action(...);
 // If you disabled the active tab,
 // It will activate the default active tab
 // or the first enabled tab
+// otherwise, no change
 Dabs.disableTab("MyTab", 1);
 ```
