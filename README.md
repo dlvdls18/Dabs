@@ -102,7 +102,7 @@ myTabEl.action(...);
 // It will activate the default active tab
 // or the first enabled tab
 // otherwise, no change
-Dabs.disableTab("MyTab", 1);
+Dabs.disableTab("MyTab",1);
 ```
 
 ### Enabling tab programmatically
@@ -112,5 +112,8 @@ Dabs.enableTab("MyTab", 1);
 
 ### Adding click listener to action tab
 ```js
-Dabs.action("MyTab", )
+// If the tab is not action, this will never called
+Dabs.action("MyTab", 2, function() {
+  // ...
+});
 ```
