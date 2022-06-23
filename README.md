@@ -91,5 +91,6 @@ myTabEl.selectTab(...);
 myTabEl.getActiveTab(...);
 myTabEl.getActiveIndex(...);
 myTabEl.disableTab(...);
-myTabEl.on(...);
+myTabEl.enableTab(...);
+myTabEl.(...);
 ```
