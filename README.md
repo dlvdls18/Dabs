@@ -50,5 +50,8 @@ Dabs.ver; // float
 
 ### Assigning element as child tab
 ```html
-<div class="dab"></div>
+<!-- Add this inside the parent tab -->
+<div class="dab">Hello</div>
 ```
+
+### 
