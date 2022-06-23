@@ -21,56 +21,13 @@ myTabEl.change(function(index) {
 });
 ```
 
-# Dabs + Dage
-Want a simple and basic pagination? Use `Dabs` with `Dage` with simple connection configuration.
+`Dabs` meet [`Dage`](https://github.com)
 
 ```js
-// basic
 Dabs.connect({
   0: "pageDashboard"
   1: "pageMarketplace"
 });
-
-// all
-Dabs.connect();
 ```
 
-```js
-Dabs.connect({
-  // when 1st tab clicked, open the page "helloPage"
-  0: "helloPage",
-
-  // when 2nd tab clicked, open the page "worldPage"
-  1: "worldPage",
-
-  // when other tab clicked, call the function "other"
-  // with argument "index" for index tab
-  other(index) {
-    //...
-  }
-});
-```
-
-```html
-<!--
-     For automatic page selection, don't add configuration
-     But you cannot exclude pages, all pages will be configurated automatically.
-     Dabs.connect();
--->
-
-<div data-dabs="mytab">
-  <div class="dab" data-active="">Hello</div> <!-- Index: 0 -->
-  <div class="dab">World</div> <!-- Index: 1 -->
-</div>
-
-<!-- Index: 0 -->
-<!-- No "data-active" needed -->
-<div data-page="hello">
-Hello
-</div>
-
-<!-- Index: 1 -->
-<div data-page="world">
-World
-</div>
-```
+clicked
