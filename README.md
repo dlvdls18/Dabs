@@ -1,11 +1,6 @@
 # Dabs
 A simple **HTML Navigation Tabs** for your beautiful simple web projects.
 With simple design and many useful methods.
-Connect `Dabs` with `Dage` for simple and basic `ViewPager`.
-
-|                         :warning: Important :warning:                    |
-|:------------------------------------------------------------------------:|
-| The source of this repository is still working. No installation for now. |
 
 ```html
 <div data-dabs="MyTab" id="myTabEl">
@@ -16,24 +11,11 @@ Connect `Dabs` with `Dage` for simple and basic `ViewPager`.
 ```
 
 ```js
-// element
 myTabEl.selectTab(1); // Marketplace
 myTabEl.on(1, function() {
   alert("myTabEl:1");
 });
 myTabEl.change(function(index) {
-  alert("Index " + index);
-  myTabEl.off(1);
-  console.log("myTabEl 1 listener removed");
-});
-
-// variable
-Dabs.selectTab("MyTab", 1) // Marketplace
-
-Dabs.on("MyTab", 1, function() {
-  alert("myTabEl:1");
-});
-Dabs.change("MyTab", function(index) {
   alert("Index " + index);
   myTabEl.off(1);
   console.log("myTabEl 1 listener removed");
