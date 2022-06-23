@@ -76,7 +76,8 @@ Dabs.ver; // float
 ### Activating child tab
 ```html
 <!--
-  It is not recommended to use
+  It is not recommended to use "data-active"
+  for two or more elements.
  -->
 <div class="dab" data-active=""></div>
 ```
