@@ -58,7 +58,16 @@ Dabs.ver; // float
 ```html
 <!--
   Useful for using tab as button
-  and making it disable
+  and making it disable.
+  But the index is still added.
+ -->
+<div class="dab" data-action=""></div>
+```
+
+### Disabling child tab
+```html
+<!--
+  
  -->
 <div class="dab" data-action=""></div>
 ```
