@@ -98,5 +98,6 @@ myTabEl.action(...);
 
 ### Disabling tab programmatically
 ```js
-
+// If you disabled the active tab,
+Dabs.disableTab("MyTab", 1);
 ```
