@@ -105,4 +105,4 @@ myTabEl.action(...);
 Dabs.disableTab("MyTab", 1);
 ```
 
-### 
+### Enabling tab programmatically
