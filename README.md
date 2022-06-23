@@ -68,7 +68,15 @@ Dabs.ver; // float
 ```html
 <!--
   Tab cannot be change when clicking this.
-  But the index is still added
+  But the index is still added.
  -->
 <div class="dab" data-disabled=""></div>
+```
+
+### Activating child tab
+```html
+<!--
+  It is not recommended to use
+ -->
+<div class="dab" data-active=""></div>
 ```
