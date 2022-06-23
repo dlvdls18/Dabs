@@ -13,12 +13,11 @@ With simple design and many useful methods.
 ```js
 myTabEl.selectTab(1); // Marketplace
 myTabEl.on(1, function() {
-  alert("myTabEl:1");
+  alert("To Marketplace!");
 });
 myTabEl.change(function(index) {
   alert("Index " + index);
   myTabEl.off(1);
-  console.log("myTabEl 1 listener removed");
 });
 ```
 
