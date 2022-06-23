@@ -54,4 +54,7 @@ Dabs.ver; // float
 <div class="dab">Hello</div>
 ```
 
-### 
+### Assigning child tab as action
+```html
+
+```
