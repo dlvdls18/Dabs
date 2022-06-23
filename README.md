@@ -41,3 +41,9 @@ Dabs.connect({
 ```js
 Dabs.ver; // float
 ```
+
+## Tabs
+### Assigning element as parent tab
+```html
+
+```
