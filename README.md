@@ -47,3 +47,8 @@ Dabs.ver; // float
 ```html
 <div data-tab="MyTab"></div>
 ```
+
+### Assigning element as child tab
+```html
+<div class="dab"></div>
+```
