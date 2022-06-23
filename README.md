@@ -56,7 +56,9 @@ Dabs.ver; // float
 
 ### Assigning child tab as action
 ```html
-<!-- Useful for using tab as button
+<!--
+  Useful for using tab as button
+  and making it disable
  -->
 <div class="dab" data-action=""></div>
 ```
