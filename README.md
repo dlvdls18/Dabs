@@ -106,3 +106,10 @@ Dabs.disableTab("MyTab", 1);
 ```
 
 ### Enabling tab programmatically
+```js
+Dabs.enableTab("MyTab", 1);
+```
+
+### Adding click listener to action tab
+```js
+```
