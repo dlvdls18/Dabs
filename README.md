@@ -3,6 +3,10 @@ A simple **HTML Navigation Tabs** for your beautiful simple web projects.
 With simple design and many useful methods.
 Connect `Dabs` with `Dage` for simple and basic `ViewPager`.
 
+|                         :warning: Important :warning:                    |
+|:------------------------------------------------------------------------:|
+| The source of this repository is still working. No installation for now. |
+
 ```html
 <div data-dabs="MyTab" id="myTabEl">
   <div class="dab" data-active="">Dashboard</div>
@@ -50,10 +54,8 @@ Dabs.connect({
 Dabs.connect();
 ```
 
-## Documentation
-### Configuration
 ```js
-{
+Dabs.connect({
   // when 1st tab clicked, open the page "helloPage"
   0: "helloPage",
 
@@ -65,10 +67,9 @@ Dabs.connect();
   other(index) {
     //...
   }
-}
+});
 ```
 
-### All pages
 ```html
 <!--
      For automatic page selection, don't add configuration
