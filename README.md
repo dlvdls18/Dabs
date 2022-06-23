@@ -112,4 +112,5 @@ Dabs.enableTab("MyTab", 1);
 
 ### Adding click listener to action tab
 ```js
+Dabs.action("MyTab", )
 ```
