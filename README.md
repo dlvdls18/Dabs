@@ -84,6 +84,7 @@ Dabs.ver; // float
 
 ### Managing tab in element
 ```js
+// No tab name needed
 myTabEl.on(...);
 myTabEl.off(...);
 myTabEl.change(...);
@@ -93,4 +94,9 @@ myTabEl.getActiveIndex(...);
 myTabEl.disableTab(...);
 myTabEl.enableTab(...);
 myTabEl.action(...);
+```
+
+### Disabling tab programmatically
+```js
+
 ```
