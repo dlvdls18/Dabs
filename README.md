@@ -83,4 +83,6 @@ Dabs.ver; // float
 ```
 
 ### Managing tab in element
+```js
+MyTab
 ```
