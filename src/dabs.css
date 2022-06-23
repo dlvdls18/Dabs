@@ -1,0 +1,45 @@
+[data-tab] {
+  display: flex;
+  padding: 12px;
+  overflow: scroll;
+}
+[data-tab] {
+  box-shadow: 0 0.12rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+[data-tab] > .dab {
+  margin: 5px;
+  padding: 8px;
+  background-color: #828282;
+  border-radius: 3px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: #FFF;
+  flex: 1;
+  text-align: center;
+}
+[data-tab] > .dab:hover {
+  background-color: #959595;
+}
+[data-tab] > .dab[data-active] {
+  background-color: green;
+}
+[data-tab] > .dab[data-active]:hover {
+  background-color: #4C9700;
+}
+[data-tab] > .dab[data-disabled] {
+  background-color: red;
+}
+[data-tab] > .dab[data-disabled]:hover {
+  background-color: coral;
+}
+[data-tab] > .dab[data-action] {
+  background-color: transparent;
+  transition: box-shadow 0.2s, background-color 0.2s, color 0.2s;
+  font-weight: bold;
+  color: blue;
+}
+[data-tab] > .dab[data-action]:hover {
+  box-shadow: 0 0 0 3px #2D87FF;
+  background-color: blue;
+  color: #FFF;
+}
