@@ -21,7 +21,7 @@ myTabEl.change(function(index) {
 });
 ```
 
-`Dabs` meet [`Dage`](https://github.com)
+`Dabs` meet [`Dage`](https://github.com/dlvdls18/Dage)
 
 ```js
 Dabs.connect({
