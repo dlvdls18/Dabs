@@ -112,7 +112,8 @@ Dabs.enableTab("MyTab", 1);
 
 ### Adding click listener to action tab
 ```js
-// If the tab is not action, this will never called
+// If the tab is not action,
+//this will never called
 Dabs.action("MyTab", 2, function() {
   // ...
 });
