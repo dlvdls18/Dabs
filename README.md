@@ -33,4 +33,5 @@ Dabs.connect({
 # Installation
 ```html
 <script src="https://cdn.jsdelivr.net/gh/dlvdls18/Dabs@main/src/dabs.js"></script>
+<link rel="stylesheet" src="https://cdn.jsdelivr.net/gh/dlvdls18/Dabs@main/src/dabs.css">
 ```
