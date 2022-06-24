@@ -230,5 +230,5 @@ Dabs.disconnect();
 </div>
 <div data-page="hello">Hello!</div>
 <div data-page="world">World!</div>
-<div data-page="notfound">404 Not found!</div>
+<div data-page="notfound">404 Not found</div>
 ```
