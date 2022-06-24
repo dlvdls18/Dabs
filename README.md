@@ -253,6 +253,9 @@ Dabs.disconnect();
 <div data-page="notfound">404 Not found.</div>
 ```
 
+## Style
+
+
 ## Others
 ### Get parent tab's children
 ```js
@@ -299,5 +302,3 @@ Dabs.update();
 // change listener
 // tab listener
 ```
-
-## Style
