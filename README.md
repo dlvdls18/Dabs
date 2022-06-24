@@ -96,7 +96,7 @@ myTabEl.disableTab(...);
 myTabEl.enableTab(...);
 myTabEl.action(...);
 
-// Dabs.t["myTabEl"]
+// Dabs.t[myTabEl.getAttribute("data-tab")]
 myTabEl.props
 ```
 
@@ -106,6 +106,7 @@ myTabEl.props
 // It will activate the default active tab
 // or the first enabled tab
 // otherwise, no change
+// Using this will update the Dabs
 Dabs.disableTab("MyTab",1);
 ```
 
@@ -118,7 +119,7 @@ Dabs.enableTab("MyTab", 1);
 ## Listener
 ### Set index listener
 ```js
-// Using this will update the Dabs
+// Fired when 2nd tab is clicked
 Dabs.on("MyTab", 1, function(el) {
   // ...
 });
@@ -192,7 +193,7 @@ Dabs.disconnect();
 ```js
 // When a tab clicked that doesn't added to configuration, nothing happens.
 // However, you can add the key "other" and the value of it is a function
-// It will fired when the tab index is not in configuration.
+// It will fired when the clicked tab index is not in configuration.
 // with 1 argument (index).
 {
   other(index) {
@@ -207,6 +208,7 @@ Dabs.disconnect();
 // However, without configuration is
 // NOT RECOMMENDED when using Action Tab
 // and ALL PAGES will be used.
+Dabs.connect(null);
 ```
 
 
@@ -235,6 +237,8 @@ Dabs.disconnect();
 <div data-page="world">World!</div>
 <!-- Navigate to this page when function "other" called -->
 <div data-page="notfound">404 Not found.</div>
+<!-- Never navigated (using tab) based on configuration -->
+<div data-page="unknown">HOW?!?!</div>
 ```
 
 ```html
@@ -251,6 +255,8 @@ Dabs.disconnect();
 <div data-page="world">World!</div>
 <!-- Navigate to this page when function "other" called -->
 <div data-page="notfound">404 Not found.</div>
+<!-- Index: 3 -->
+<div data-page="unknown">HOW?!?!</div>
 ```
 
 ## Style
