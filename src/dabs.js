@@ -67,6 +67,7 @@ var Dabs = {
       el.action = function(i,f) {
         Dabs.action(this.getAttribute("data-tab"),i,f);
       }
+      el.props = Dabs.t[n];
       var i = 0;
       Dabs.t[n].c.forEach(function(e) {
         e.setAttribute("data-parent", n);
