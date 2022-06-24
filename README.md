@@ -113,7 +113,9 @@ Dabs.enableTab("MyTab", 1);
 ## Listener
 ### Set index listener
 ```js
-Dabs.on("MyTab", 2)
+Dabs.on("MyTab", 1, function(el) {
+  // ...
+});
 ```
 ### Adding click listener to action tab
 ```js
