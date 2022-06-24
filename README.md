@@ -94,7 +94,7 @@ myTabEl.getActiveIndex(...);
 myTabEl.disableTab(...);
 myTabEl.enableTab(...);
 myTabEl.action(...);
-myTabEl.
+myTabEl.props
 ```
 
 ### Disabling tab programmatically
