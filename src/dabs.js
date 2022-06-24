@@ -98,9 +98,14 @@ var Dabs = {
     e.setAttribute("data-active", "");
     d.a = {i,t:e};
     if(typeof Dabs.c == "object") {
+      var hn = false;
       for(var dci in Dabs.c) {
-        if(parseInt(dci) == i) Dage.navigate(Dabs.c[dci]);
+        if(parseInt(dci) == i) {
+          Dage.navigate(Dabs.c[dci]);
+          hn = true;
+        }
       }
+      if(!hn && Dabs.c.other != null
     }
     Dabs.update();
   },
