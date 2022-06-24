@@ -1,5 +1,6 @@
 :root {
-  --dab-normal-color: #828282;
+  --dab-normal-bgcolor: #828282;
+  --dab-normal-color: #FFF;
 }
 [data-tab] {
   display: flex;
@@ -12,11 +13,11 @@
 [data-tab] > .dab {
   margin: 5px;
   padding: 8px;
-  background-color: #828282;
+  background-color: var(--dab-normal-bgcolor);
   border-radius: 3px;
   padding-left: 13px;
   padding-right: 13px;
-  color: #FFF;
+  color: var(--dab-normal-color);
   flex: 1;
   text-align: center;
 }
