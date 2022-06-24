@@ -2,6 +2,7 @@
   --dab-normal-bgcolor: #828282;
   --dab-normal-color: #FFF;
   --dab-normal-bgcolor-hover: 959595;
+  --dab-active-bgcolor: green;
 }
 [data-tab] {
   display: flex;
@@ -26,7 +27,7 @@
   background-color: var(--dab-normal-bgcolor-hover);
 }
 [data-tab] > .dab[data-active] {
-  background-color: green;
+  background-color: var(--dab-active-bgcolor);
 }
 [data-tab] > .dab[data-active]:hover {
   background-color: #4C9700;
