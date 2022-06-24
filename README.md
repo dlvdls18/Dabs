@@ -274,3 +274,10 @@ Dabs.t["MyTab"].d; // NodeList
 ```js
 Dabs.t["MyTab"].ac; // NodeList
 ```
+
+### Get parent tab
+```js
+Dabs.t["MyTab"];
+// Can be used in element
+// myTabEl.props == Dabs.t[myTabEl.getAttribute
+```
