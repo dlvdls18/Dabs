@@ -8,6 +8,7 @@
   --dab-disabled-bgcolor-hover: coral;
   --dab-action-bgcolor: transparent;
   --dab-action-color: blue;
+  --dab-action-shadow: #2D87FF;
 }
 [data-tab] {
   display: flex;
@@ -51,6 +52,6 @@
 }
 [data-tab] > .dab[data-action]:hover {
   box-shadow: 0 0 0 3px var(--dab-action-shadow);
-  background-color: blue;
-  color: #FFF;
+  background-color: var(--dab-action-bgcolor-hover);
+  color: var(--dab-action-color-hover);
 }
