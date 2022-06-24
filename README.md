@@ -203,5 +203,5 @@ Dabs.disconnect();
 // Configuration is optional
 // However, without configuration is
 // NOT RECOMMENDED for using
-// Action Tab
+// Action Tab and Disabled Tab
 ```
