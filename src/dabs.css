@@ -6,6 +6,7 @@
   --dab-active-bgcolor-hover: #4C9700;
   --dab-disabled-bgcolor: red;
   --dab-disabled-bgcolor-hover: coral;
+  --dab-action-bgcolor: transparent;
 }
 [data-tab] {
   display: flex;
