@@ -279,5 +279,5 @@ Dabs.t["MyTab"].ac; // NodeList
 ```js
 Dabs.t["MyTab"];
 // Can be used in element
-// myTabEl.props == Dabs.t[myTabEl.getAttribute
+// myTabEl.props == Dabs.t[myTabEl.getAttribute("data-tab")];
 ```
