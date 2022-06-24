@@ -105,7 +105,7 @@ var Dabs = {
           hn = true;
         }
       }
-      if(!hn && Dabs.c.other != null
+      if(!hn && Dabs.c.other != null) Dabs.c.other(i);
     }
     Dabs.update();
   },
