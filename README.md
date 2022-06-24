@@ -222,7 +222,7 @@ Dabs.disconnect();
 -->
 <div data-tab="MyTab">
   <!-- Navigate to page "hello" (0) -->
-  <div class="dab">Hello</div>
+  <div class="dab" data-active="">Hello</div>
   <!-- Navigate to page "world" (1) -->
   <div class="dab">World</div>
   <!-- Call the function "other" (2) -->
@@ -237,10 +237,10 @@ Dabs.disconnect();
 ```html
 <!-- This is how Dabs.connect work without configuration -->
 <div data-tab="MyTab">
-  <!-- Navigate to page "hello" (0) -->
-  <div class="dab">Hello</div>
+  <!-- Navigate to page "hello" even it's data (0) -->
+  <div class="dab" data-action="">Hello</div>
   <!-- Navigate to page "world" (1) -->
-  <div class="dab">World</div>
+  <div class="dab" data-active="">World</div>
   <!-- Call the function "other" (2) -->
   <div class="dab">Not Found</div>
 </div>
