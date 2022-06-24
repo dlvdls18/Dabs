@@ -215,6 +215,7 @@ Dabs.disconnect();
   0: "hello",
   1: "world",
   other(index) {
+    Dage.navigate("notfound");
     alert("Index " + index + " not found");
   }
 }
