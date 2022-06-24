@@ -246,5 +246,6 @@ Dabs.disconnect();
 </div>
 <div data-page="hello">Hello!</div>
 <div data-page="world">World!</div>
+<!-- Navigate to this page when function "other" called -->
 <div data-page="notfound">404 Not found.</div>
 ```
