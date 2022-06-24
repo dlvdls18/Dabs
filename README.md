@@ -150,4 +150,5 @@ Dabs.change(function(index) {
 
 ### Get onchange listener
 ```js
+Dabs.t["MyTab"].
 ```
