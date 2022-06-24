@@ -9,6 +9,8 @@
   --dab-action-bgcolor: transparent;
   --dab-action-color: blue;
   --dab-action-shadow: #2D87FF;
+  --dab-action-bgcolor-hover: blue;
+  --dab-action-color-hover: #FFF;
 }
 [data-tab] {
   display: flex;
