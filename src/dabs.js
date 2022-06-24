@@ -9,7 +9,7 @@ var Dabs = {
       if(window.Dage == null) {
         console.warn("Dage is not defined, view https://github.com/dlvdls18/Dage for installation");
       } else {
-        if(Dabs.c == true) {
+        if(typeof Dabs.c == "string") {
           Dabs.lca = true;
           var o = {};
           var i_ = 0;
@@ -17,7 +17,7 @@ var Dabs = {
             o[`${i_}`] = p.getAttribute("data-page");
             i_++;
           });
-          Dabs.c = o;
+          Dabs.c = JSON.parse(`{ "${Dabs.c}": ${JSON.stringify(o)} }`);
         }
         if(Dage.a == null) Dage.navigate(Dabs.c["0"]);
       }
@@ -99,14 +99,17 @@ var Dabs = {
     e.setAttribute("data-active", "");
     d.a = {i,t:e};
     if(typeof Dabs.c == "object") {
-      var hn = false;
-      for(var dci in Dabs.c) {
-        if(parseInt(dci) == i) {
-          Dage.navigate(Dabs.c[dci]);
-          hn = true;
+      var dct = Dabs.c[t];
+      if(dct != null) {
+        var hn = false;
+        for(var dci in dct) {
+          if(parseInt(dci) == i) {
+            Dage.navigate(dct[dci]);
+            hn = true;
+          }
         }
+        if(!hn && dct.other != null) dct.other(i);
       }
-      if(!hn && Dabs.c.other != null) Dabs.c.other(i);
     }
     Dabs.update();
   },
@@ -129,8 +132,8 @@ var Dabs = {
     Dabs.t[tab].a$[i] = f;
   },
   connect(conf) {
-    if(conf == null) {
-      Dabs.c = true;
+    if(typeof conf == "string") {
+      Dabs.c = conf;
     } else {
       Dabs.c = conf;
     }
