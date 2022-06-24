@@ -166,7 +166,8 @@ Dabs.connect(config?);
 
 ### Disconnect to Dage
 ```js
-// This will reupdate the Dage and Dabs
+// This will reupdate the Dabs and reset the configuration
+// and some other variable connected to "Dabs.connecf"
 Dabs.disconnect();
 ```
 
