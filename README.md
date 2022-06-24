@@ -78,6 +78,7 @@ Dabs.ver; // float
 <!--
   It is not recommended to use "data-active"
   for two or more elements.
+  this is important, without this, some methods will not work
  -->
 <div class="dab" data-active=""></div>
 ```
@@ -295,5 +296,6 @@ Dabs.update();
 // active tab
 // change listener
 // tab listener
+
 
 ```
