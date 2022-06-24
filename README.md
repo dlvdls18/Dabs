@@ -255,8 +255,13 @@ Dabs.disconnect();
 ```js
 Dabs.t["MyTab"].c; // NodeList
 NodeList
+```
 
-### Get parent tab's children
+### Get parent tab's active index and element
 ```js
-Dabs.t["MyTab"].c; // NodeList
+Dabs.t["MyTab"].a; // Object
+{
+  i: index,
+  t: el
+}
 ```
