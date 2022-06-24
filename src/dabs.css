@@ -42,10 +42,10 @@
   background-color: var(--dab-disabled-bgcolor-hover);
 }
 [data-tab] > .dab[data-action] {
-  background-color: transparent;
+  background-color: var(--dab-action-bgcolor);
   transition: box-shadow 0.2s, background-color 0.2s, color 0.2s;
   font-weight: bold;
-  color: blue;
+  color: var(--dab-action-color);
 }
 [data-tab] > .dab[data-action]:hover {
   box-shadow: 0 0 0 3px #2D87FF;
