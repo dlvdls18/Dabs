@@ -185,3 +185,5 @@ Dabs.change(function() {});
   }
 }
 ```
+
+### No configuration 
