@@ -256,8 +256,9 @@ Dabs.disconnect();
 ## Style
 You can customize your tab design with `CSS`.
 
-These are the default values for style variable.
+### Variables
 ```css
+/* Default values of css variables */
 :root {
   /* for normal tab that is not active */
   --dab-normal-bgcolor: #828282;
@@ -280,7 +281,7 @@ These are the default values for style variable.
 }
 ```
 
-`dabs.css` necessary selectors:
+### Selectors
 
 ```css
 [data-tab],
@@ -293,6 +294,9 @@ These are the default values for style variable.
 [data-tab] > .dab[data-action],
 [data-tab] > .dab[data-action]:hover
 ```
+
+
+###
 
 ## Others
 ### Get parent tab's children
