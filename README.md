@@ -124,7 +124,10 @@ Dabs.on("MyTab", 1, function(el) {
 Dabs.t["MyTab"].$["1"];
 ```
 
-
+### Remove index listener
+```js
+Dabs.off("MyTab", 1);
+```
 
 ### Set click listener to action tab
 ```js
