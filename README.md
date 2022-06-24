@@ -228,4 +228,7 @@ Dabs.disconnect();
   <!-- Call the function "other" (2) -->
   <div class="dab">?!?!?</div>
 </div>
+<div data-page="hello">Hello!</div>
+<div data-page="world">World!</div>
+<div data-page="notfound">404 Not found!</div>
 ```
