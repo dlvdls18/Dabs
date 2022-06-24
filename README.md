@@ -226,7 +226,7 @@ Dabs.disconnect();
   <!-- Navigate to page "world" (1) -->
   <div class="dab">World</div>
   <!-- Call the function "other" (2) -->
-  <div class="dab">?!?!?</div>
+  <div class="dab">Not Found</div>
 </div>
 <div data-page="hello">Hello!</div>
 <div data-page="world">World!</div>
@@ -242,7 +242,7 @@ Dabs.disconnect();
   <!-- Navigate to page "world" (1) -->
   <div class="dab">World</div>
   <!-- Call the function "other" (2) -->
-  <div class="dab">?!?!?</div>
+  <div class="dab">Not Found</div>
 </div>
 <div data-page="hello">Hello!</div>
 <div data-page="world">World!</div>
