@@ -269,10 +269,10 @@ These are the default values for style variable.
   /* for disabled tab */
   --dab-disabled-bgcolor: red;
   --dab-disabled-bgcolor-hover: coral;
-  /* for action tab ""
+  /* for action tab */
   --dab-action-bgcolor: transparent;
   --dab-action-color: blue;
-  --dab-action-shadow: #2D87FF;
+  --dab-action-shadow: #2D87FF; /* box shadow color :hover */
   --dab-action-bgcolor-hover: blue;
   --dab-action-color-hover: #FFF;
 }
