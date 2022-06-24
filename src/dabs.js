@@ -150,8 +150,8 @@ var Dabs = {
         if(e.getAttribute("data-disabled") === null) lt = e;
         if(!lt) li++;
       });
-      if(lt) Dabs.t[tab].a = {i:li, t:lt}
-      else 
+      if(lt) Dabs.t[tab].a = {i:li, t:lt};
+      else Dabs.t[tab].a = {i:-1, t:null}
     }
     Dabs.update();
   },
