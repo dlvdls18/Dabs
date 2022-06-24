@@ -34,7 +34,7 @@
   background-color: var(--dab-active-bgcolor-hover);
 }
 [data-tab] > .dab[data-disabled] {
-  background-color: var(--dab-disabled-bgcolor;
+  background-color: var(--dab-disabled-bgcolor);
 }
 [data-tab] > .dab[data-disabled]:hover {
   background-color: coral;
