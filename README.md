@@ -278,6 +278,8 @@ These are the default values for style variable.
 }
 ```
 
+`dabs.css` selectors:
+
 ## Others
 ### Get parent tab's children
 ```js
