@@ -278,7 +278,7 @@ These are the default values for style variable.
 }
 ```
 
-`dabs.css` selectors:
+`dabs.css` necessary selectors:
 
 ```css
 
