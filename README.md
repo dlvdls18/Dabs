@@ -163,8 +163,11 @@ Dabs.change(function() {});
 ```js
 // To configurate
 // You need to use number as key for
-// tab index
+// tab index.
+// and it's value is the name of page
 {
-  0: ""
+  // when 1st tab clicked, navigate to page "MyPage"
+  0: "MyPage",
+  1: "MyPage2"
 }
 ```
