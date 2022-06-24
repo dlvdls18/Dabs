@@ -148,7 +148,7 @@ var Dabs = {
       var li = 0;
       Dabs.t[tab].c.forEach(function(e) {
         if(e.getAttribute("data-disabled") === null) lt = e;
-        if(lt == nuli++;
+        if(!lt) li++;
       });
       if(lt) Dabs.t[tab].a = {i:
       else 
