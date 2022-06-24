@@ -220,5 +220,7 @@ Dabs.disconnect();
   }
 }
 -->
-<div class=""
+<div data-tab="MyTab">
+  <div class="dab"></div>
+</div>
 ```
