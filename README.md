@@ -207,4 +207,4 @@ Dabs.disconnect();
 ```
 
 
-### Configuration and No configuration Comparison
+### Configuration and No configuration comparison
