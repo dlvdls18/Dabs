@@ -11,14 +11,13 @@
   --dab-action-shadow: #2D87FF;
   --dab-action-bgcolor-hover: blue;
   --dab-action-color-hover: #FFF;
+  --dab-parent-shadow: rgba(0, 0, 0, 0.2);
 }
 [data-tab] {
   display: flex;
   padding: 12px;
   overflow: scroll;
-}
-[data-tab] {
-  box-shadow: 0 0.12rem 0.2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.12rem 0.2rem var(--dab-parent-shadow);
 }
 [data-tab] > .dab {
   margin: 5px;
