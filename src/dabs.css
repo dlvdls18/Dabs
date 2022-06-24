@@ -1,6 +1,7 @@
 :root {
   --dab-normal-bgcolor: #828282;
   --dab-normal-color: #FFF;
+  --dab-normal-bgcolor-hover: 959595;
 }
 [data-tab] {
   display: flex;
@@ -22,7 +23,7 @@
   text-align: center;
 }
 [data-tab] > .dab:hover {
-  background-color: #959595;
+  background-color: var(--dab-normal-bgcolor-hover);
 }
 [data-tab] > .dab[data-active] {
   background-color: green;
