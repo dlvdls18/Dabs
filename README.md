@@ -295,9 +295,6 @@ You can customize your tab design with `CSS`.
 [data-tab] > .dab[data-action]:hover
 ```
 
-
-###
-
 ## Others
 ### Get parent tab's children
 ```js
