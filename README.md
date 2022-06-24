@@ -118,7 +118,11 @@ Dabs.on("MyTab", 1, function(el) {
 });
 ```
 
-### Adding click listener to action tab
+### Get index listener
+```js
+```
+
+### Set click listener to action tab
 ```js
 // If the tab is not action,
 // this will never called
