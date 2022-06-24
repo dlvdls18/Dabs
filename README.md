@@ -254,7 +254,9 @@ Dabs.disconnect();
 ```
 
 ## Style
-You can customize your tab
+You can customize your tab design with `CSS`.
+
+These are the default values for variable
 
 ## Others
 ### Get parent tab's children
