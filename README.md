@@ -249,3 +249,6 @@ Dabs.disconnect();
 <!-- Navigate to this page when function "other" called -->
 <div data-page="notfound">404 Not found.</div>
 ```
+
+## Values
+### Get tab
