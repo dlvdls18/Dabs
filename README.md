@@ -120,7 +120,11 @@ Dabs.on("MyTab", 1, function(el) {
 
 ### Get index listener
 ```js
+// index as string
+Dabs.t["MyTab"].$["1"];
 ```
+
+
 
 ### Set click listener to action tab
 ```js
