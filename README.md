@@ -178,5 +178,10 @@ Dabs.change(function() {});
 // When a tab clicked that doesn't added to configuration, nothing happens.
 // However, you can add the key "other" and the value of it is a function
 // It will fired when the tab index is not in configuration.
-// 
+// with 1 argument (index).
+{
+  other(index) {
+    // ...
+  }
+}
 ```
