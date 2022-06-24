@@ -298,6 +298,4 @@ Dabs.update();
 // active tab
 // change listener
 // tab listener
-
-
 ```
