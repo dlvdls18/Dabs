@@ -94,6 +94,7 @@ myTabEl.getActiveIndex(...);
 myTabEl.disableTab(...);
 myTabEl.enableTab(...);
 myTabEl.action(...);
+myTabEl.
 ```
 
 ### Disabling tab programmatically
