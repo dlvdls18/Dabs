@@ -159,6 +159,12 @@ Dabs.change(function() {});
 ```
 
 ## Connecting Dage
+### Connecting Dage
+```js
+Dabs.c
+connect(
+```
+
 ### Simple Configuration
 ```js
 // To configurate
@@ -187,3 +193,6 @@ Dabs.change(function() {});
 ```
 
 ### No configuration
+```js
+// There is an option
+```
