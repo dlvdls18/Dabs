@@ -175,5 +175,6 @@ Dabs.change(function() {});
 
 ### Default page configuration
 ```js
-// When the other tab clicked 
+// When a tab clicked that doesn't added to configuration, nothing happens.
+// However, you can add the key "other"
 ```
