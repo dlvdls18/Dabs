@@ -7,6 +7,7 @@
   --dab-disabled-bgcolor: red;
   --dab-disabled-bgcolor-hover: coral;
   --dab-action-bgcolor: transparent;
+  --dab-action-color: blue;
 }
 [data-tab] {
   display: flex;
