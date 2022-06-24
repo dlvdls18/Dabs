@@ -1,8 +1,9 @@
 :root {
   --dab-normal-bgcolor: #828282;
-  --dab-normal-color: #FFF;
+  --dab-color: #FFF;
   --dab-normal-bgcolor-hover: 959595;
   --dab-active-bgcolor: green;
+  --dab-normal-bgcolor-hover: #4C9700;
 }
 [data-tab] {
   display: flex;
@@ -30,10 +31,10 @@
   background-color: var(--dab-active-bgcolor);
 }
 [data-tab] > .dab[data-active]:hover {
-  background-color: #4C9700;
+  background-color: var(--dab-active-bgcolor-hover);
 }
 [data-tab] > .dab[data-disabled] {
-  background-color: red;
+  background-color: var(--dab-active-bgcolor;
 }
 [data-tab] > .dab[data-disabled]:hover {
   background-color: coral;
