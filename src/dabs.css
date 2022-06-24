@@ -20,7 +20,7 @@
   border-radius: 3px;
   padding-left: 13px;
   padding-right: 13px;
-  color: var(--dab-normal-color);
+  color: var(--dab-color);
   flex: 1;
   text-align: center;
 }
