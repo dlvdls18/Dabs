@@ -207,4 +207,4 @@ Dabs.disconnect();
 ```
 
 
-### Configuration and No configuration comparison
+### With onfiguration and without configuration comparison
