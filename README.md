@@ -184,10 +184,13 @@ Dabs.disconnect();
 // tab index.
 // and it's value is the name of page
 {
-  // when 1st tab clicked, navigate to page "MyPage"
-  0: "MyPage",
-  // when 2nd tab clicked, navigate to page "MyPage2"
-  1: "MyPage2"
+  // tab name
+  MyTab: {
+    // when 1st tab clicked, navigate to page "MyPage"
+    0: "MyPage",
+    // when 2nd tab clicked, navigate to page "MyPage2"
+    1: "MyPage2"
+  }
 }
 ```
 
@@ -210,7 +213,9 @@ Dabs.disconnect();
 // However, without configuration is
 // NOT RECOMMENDED when using Action Tab
 // and ALL PAGES will be used.
-Dabs.connect(null);
+
+// No object configuration, just string
+Dabs.connect("MyTab");
 ```
 
 
@@ -219,11 +224,13 @@ Dabs.connect(null);
 <!-- This is how Dabs.connect work with configuration -->
 <!--
 {
-  0: "hello",
-  1: "world",
-  other(index) {
-    Dage.navigate("notfound");
-    alert("Index " + index + " not found");
+  MyTab:
+    0: "hello",
+    1: "world",
+    other(index) {
+      Dage.navigate("notfound");
+      alert("Index " + index + " not found");
+    }
   }
 }
 -->
