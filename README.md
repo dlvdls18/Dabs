@@ -284,5 +284,7 @@ Dabs.t["MyTab"];
 
 ### Update tabs
 ```js
-// When
+Dabs.update();
+// When using this method
+// 
 ```
