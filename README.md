@@ -254,4 +254,9 @@ Dabs.disconnect();
 ### Get parent tab's children
 ```js
 Dabs.t["MyTab"].c; // NodeList
+NodeList
+
+### Get parent tab's children
+```js
+Dabs.t["MyTab"].c; // NodeList
 ```
