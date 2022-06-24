@@ -153,4 +153,7 @@ Dabs.change(function(index) {
 Dabs.t["MyTab"].$$;
 ```
 
-## 
+## Remove onchange listener
+```js
+Dabs.change(function() {});
+```
