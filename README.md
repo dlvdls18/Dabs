@@ -159,3 +159,4 @@ Dabs.change(function() {});
 ```
 
 ## Connecting Dage
+### Configuration 
