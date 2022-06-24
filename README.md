@@ -221,11 +221,11 @@ Dabs.disconnect();
 }
 -->
 <div data-tab="MyTab">
-  <!-- Navigate to page "hello" -->
+  <!-- Navigate to page "hello" (0) -->
   <div class="dab">Hello</div>
-  <!-- Navigate to page "world" -->
+  <!-- Navigate to page "world" (1) -->
   <div class="dab">World</div>
-  <!-- Call the function "other" -->
+  <!-- Call the function "other" (2) -->
   <div class="dab">?!?!?</div>
 </div>
 ```
