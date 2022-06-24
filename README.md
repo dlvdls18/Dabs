@@ -259,14 +259,17 @@ You can customize your tab design with `CSS`.
 These are the default values for style variable.
 ```css
 :root {
-  /*for normal tab that is not active */
+  /* for normal tab that is not active */
   --dab-normal-bgcolor: #828282;
   --dab-color: #FFF;
   --dab-normal-bgcolor-hover: 959595;
+  /* for normal tab that is active */
   --dab-active-bgcolor: green;
   --dab-active-bgcolor-hover: #4C9700;
+  /* for disabled tab */
   --dab-disabled-bgcolor: red;
   --dab-disabled-bgcolor-hover: coral;
+  /* for action tab ""
   --dab-action-bgcolor: transparent;
   --dab-action-color: blue;
   --dab-action-shadow: #2D87FF;
