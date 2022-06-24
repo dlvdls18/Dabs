@@ -237,7 +237,7 @@ Dabs.disconnect();
 ```html
 <!-- This is how Dabs.connect work without configuration -->
 <div data-tab="MyTab">
-  <!-- Navigate to page "hello" even it's data (0) -->
+  <!-- Navigate to page "hello" even it's data-action (0) -->
   <div class="dab" data-action="">Hello</div>
   <!-- Navigate to page "world" (1) -->
   <div class="dab" data-active="">World</div>
