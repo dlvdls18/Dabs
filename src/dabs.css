@@ -4,6 +4,8 @@
   --dab-normal-bgcolor-hover: 959595;
   --dab-active-bgcolor: green;
   --dab-active-bgcolor-hover: #4C9700;
+  --dab-disabled-bgcolor: red;
+  --dab-disabled-bgcolor-hover: coral;
 }
 [data-tab] {
   display: flex;
@@ -37,7 +39,7 @@
   background-color: var(--dab-disabled-bgcolor);
 }
 [data-tab] > .dab[data-disabled]:hover {
-  background-color: coral;
+  background-color: var(--d;
 }
 [data-tab] > .dab[data-action] {
   background-color: transparent;
