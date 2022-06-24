@@ -50,7 +50,7 @@
   color: var(--dab-action-color);
 }
 [data-tab] > .dab[data-action]:hover {
-  box-shadow: 0 0 0 3px #2D87FF;
+  box-shadow: 0 0 0 3px var(--dab-action-shadow);
   background-color: blue;
   color: #FFF;
 }
