@@ -39,7 +39,7 @@
   background-color: var(--dab-disabled-bgcolor);
 }
 [data-tab] > .dab[data-disabled]:hover {
-  background-color: var(--d;
+  background-color: var(--dab-disabled-bgcolor-hover);
 }
 [data-tab] > .dab[data-action] {
   background-color: transparent;
