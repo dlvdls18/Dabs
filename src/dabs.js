@@ -144,7 +144,8 @@ var Dabs = {
   disableTab(tab,i) {
     Dabs.t[tab].c[i].t.setAttribute("data-disabled", "");
     if(Dabs.t[tab].a.i == i) {
-      i
+      var lt = null;
+      Dabs.t[tab].c.forEach(function(item) )
     }
     Dabs.update();
   },
