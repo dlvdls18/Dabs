@@ -166,6 +166,7 @@ Dabs.connect(config?);
 
 ### Disconnect to Dage
 ```js
+// this
 Dabs.disconnect();
 ```
 
