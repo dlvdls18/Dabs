@@ -275,6 +275,8 @@ These are the default values for style variable.
   --dab-action-shadow: #2D87FF; /* box shadow color (hover) */
   --dab-action-bgcolor-hover: blue;
   --dab-action-color-hover: #FFF;
+  /* for parent tab box shadow */
+  --dab-parent-shadow: rgba(0, 0, 0, 0.2);
 }
 ```
 
