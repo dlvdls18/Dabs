@@ -118,6 +118,7 @@ Dabs.enableTab("MyTab", 1);
 ## Listener
 ### Set index listener
 ```js
+// Using this will update the Dabs
 Dabs.on("MyTab", 1, function(el) {
   // ...
 });
