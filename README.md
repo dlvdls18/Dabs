@@ -254,8 +254,6 @@ Dabs.disconnect();
 ```
 
 ## Style
-You can customize your tab design with `CSS`.
-
 ### Variables
 ```css
 /* Default values of css variables */
