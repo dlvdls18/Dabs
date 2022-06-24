@@ -111,6 +111,7 @@ Dabs.disableTab("MyTab",1);
 
 ### Enabling tab programmatically
 ```js
+// Using this will update the Dabs
 Dabs.enableTab("MyTab", 1);
 ```
 
