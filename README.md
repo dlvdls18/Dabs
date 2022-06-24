@@ -250,7 +250,7 @@ Dabs.disconnect();
 <div data-page="notfound">404 Not found.</div>
 ```
 
-## Values
+## Others
 ### Get parent tab's children
 ```js
 Dabs.t["MyTab"].c; // NodeList
@@ -280,4 +280,9 @@ Dabs.t["MyTab"].ac; // NodeList
 Dabs.t["MyTab"];
 // Can be used in element
 // myTabEl.props == Dabs.t[myTabEl.getAttribute("data-tab")];
+```
+
+### Update tabs
+```js
+// When
 ```
