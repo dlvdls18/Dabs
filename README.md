@@ -168,6 +168,7 @@ Dabs.change(function() {});
 {
   // when 1st tab clicked, navigate to page "MyPage"
   0: "MyPage",
+  // when 1st tab clicked, navigate to page "MyPage"
   1: "MyPage2"
 }
 ```
