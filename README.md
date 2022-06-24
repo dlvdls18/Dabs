@@ -95,7 +95,7 @@ myTabEl.disableTab(...);
 myTabEl.enableTab(...);
 myTabEl.action(...);
 
-// Dabs.t["myTabEl"] = myTabEl.props;
+// Dabs.t["myTabEl"]
 myTabEl.props
 ```
 
