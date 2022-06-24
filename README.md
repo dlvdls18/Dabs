@@ -215,7 +215,8 @@ Dabs.disconnect();
   0: "hello",
   1: "world",
   other(index) {
-  
+    alert("Index " + index + " not found");
+  }
 }
 -->
 ```
