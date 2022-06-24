@@ -208,3 +208,6 @@ Dabs.disconnect();
 
 
 ### With onfiguration and without configuration **comparison**
+```html
+<!-- This is how configuration 
+```
