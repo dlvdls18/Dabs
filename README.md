@@ -292,5 +292,8 @@ Dabs.update();
 
 // All tab's values will be reset
 // except for:
-//
+// active tab
+// change listener
+// tab listener
+// action listener
 ```
