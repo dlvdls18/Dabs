@@ -137,10 +137,11 @@ var Dabs = {
   },
   disableTab(tab,i) {
     Dabs.t[tab].c[i].t.setAttribute("data-disabled", "");
-    Dabs.update
+    Dabs.update();
   },
   enableTab(tab,i) {
-    
+    Dabs.t[tab].c[i].t.removeAttribute("data-disabled");
+    Dabs.update();
   }
 }
 
