@@ -200,5 +200,8 @@ Dabs.disconnect();
 
 ### No configuration
 ```js
-// There is an option
+// Configuration is optional
+// However, without configuration is
+// NOT RECOMMENDED for using
+// Action Tab
 ```
