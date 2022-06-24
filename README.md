@@ -110,6 +110,8 @@ Dabs.disableTab("MyTab",1);
 Dabs.enableTab("MyTab", 1);
 ```
 
+## Listener
+### Set ind
 ### Adding click listener to action tab
 ```js
 // If the tab is not action,
@@ -118,5 +120,3 @@ Dabs.action("MyTab", 2, function() {
   // ...
 });
 ```
-
-### 
