@@ -159,4 +159,12 @@ Dabs.change(function() {});
 ```
 
 ## Connecting Dage
-### Configuration 
+### Configuration
+```js
+// To configurate
+// You need to use number as key for
+// tab index
+{
+  0: ""
+}
+```
