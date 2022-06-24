@@ -281,7 +281,8 @@ These are the default values for style variable.
 `dabs.css` necessary selectors:
 
 ```css
-
+[data-tab],
+[]
 ```
 
 ## Others
