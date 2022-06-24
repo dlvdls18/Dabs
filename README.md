@@ -289,5 +289,8 @@ Dabs.update();
 // All tabs will be removed in Dabs.t
 // And add them back including the other tabs that not in Dabs.t
 // in short: research tabs
+
+// All tab's values will be reset
+// except for:
 //
 ```
