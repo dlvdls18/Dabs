@@ -159,7 +159,7 @@ Dabs.change(function() {});
 ```
 
 ## Connecting Dage
-### Configuration
+### Simple Configuration
 ```js
 // To configurate
 // You need to use number as key for
@@ -171,4 +171,9 @@ Dabs.change(function() {});
   // when 2nd tab clicked, navigate to page "MyPage2"
   1: "MyPage2"
 }
+```
+
+### Default page configuration
+```js
+// When the other tab clicked 
 ```
