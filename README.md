@@ -287,7 +287,11 @@ These are the default values for style variable.
 [data-tab] > .dab,
 [data-tab] > .dab:hover,
 [data-tab] > .dab[data-active],
-[data-tab] > .dab:hover
+[data-tab] > .dab[data-active]:hover,
+[data-tab] > .dab[data-disabled],
+[data-tab] > .dab[data-disabled]:hover,
+[data-tab] > .dab[data-action],
+[data-tab] > .dab[data-action]:hover
 ```
 
 ## Others
