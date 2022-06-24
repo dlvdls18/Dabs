@@ -1,5 +1,5 @@
 :root {
-  --dab-
+  --dab-normal-color: #828282;
 }
 [data-tab] {
   display: flex;
