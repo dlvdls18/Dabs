@@ -232,3 +232,18 @@ Dabs.disconnect();
 <div data-page="world">World!</div>
 <div data-page="notfound">404 Not found.</div>
 ```
+
+```html
+<!-- This is how Dabs.connect work without configuration -->
+<div data-tab="MyTab">
+  <!-- Navigate to page "hello" (0) -->
+  <div class="dab">Hello</div>
+  <!-- Navigate to page "world" (1) -->
+  <div class="dab">World</div>
+  <!-- Call the function "other" (2) -->
+  <div class="dab">?!?!?</div>
+</div>
+<div data-page="hello">Hello!</div>
+<div data-page="world">World!</div>
+<div data-page="notfound">404 Not found.</div>
+```
