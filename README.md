@@ -257,7 +257,7 @@ Dabs.t["MyTab"].c; // NodeList
 NodeList
 ```
 
-### Get parent tab's active tab index and element
+### Get parent tab's active index and element
 ```js
 Dabs.t["MyTab"].a; // Object
 {
@@ -266,4 +266,4 @@ Dabs.t["MyTab"].a; // Object
 }
 ```
 
-### Get parent tab's 
+### Get parent tab's disabled tabs
