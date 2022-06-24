@@ -145,9 +145,13 @@ var Dabs = {
     Dabs.t[tab].c[i].t.setAttribute("data-disabled", "");
     if(Dabs.t[tab].a.i == i) {
       var lt = null;
+      var li = 0;
       Dabs.t[tab].c.forEach(function(e) {
         if(e.getAttribute("data-disabled") === null) lt = e;
+        if(lt == nuli++;
       });
+      if(lt) Dabs.t[tab].a = {i:
+      else 
     }
     Dabs.update();
   },
