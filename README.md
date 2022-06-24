@@ -254,7 +254,7 @@ Dabs.disconnect();
 ```
 
 ## Style
-You can customize 
+You can customize your tab
 
 ## Others
 ### Get parent tab's children
