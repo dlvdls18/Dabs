@@ -186,4 +186,4 @@ Dabs.change(function() {});
 }
 ```
 
-### No configuration 
+### No configuration
