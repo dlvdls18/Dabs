@@ -209,5 +209,12 @@ Dabs.disconnect();
 
 ### With onfiguration and without configuration **comparison**
 ```html
-<!-- This is how configuration 
+<!-- This is how Dabs.connect work with configuration -->
+<!--
+{
+  0: "hello",
+  1: "world",
+  
+}
+-->
 ```
