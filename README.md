@@ -223,6 +223,6 @@ Dabs.disconnect();
 <div data-tab="MyTab">
   <div class="dab">Hello</div>
   <div class="dab">World</div>
-  <div class="dab">?!?!</div>
+  <div class="dab">?!?!?</div>
 </div>
 ```
