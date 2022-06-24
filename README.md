@@ -262,6 +262,6 @@ NodeList
 Dabs.t["MyTab"].a; // Object
 {
   i: index,
-  t: el
+  t: element
 }
 ```
