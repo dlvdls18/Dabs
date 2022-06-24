@@ -1,4 +1,6 @@
 # Dabs
+
+![Dabs](dabs.png)
 A simple **HTML Navigation Tabs** for your beautiful simple web projects.
 With simple design and many useful methods.
 
