@@ -256,7 +256,23 @@ Dabs.disconnect();
 ## Style
 You can customize your tab design with `CSS`.
 
-These are the default values for variable
+These are the default values for style variable.
+```css
+:root {
+  --dab-normal-bgcolor: #828282;
+  --dab-color: #FFF;
+  --dab-normal-bgcolor-hover: 959595;
+  --dab-active-bgcolor: green;
+  --dab-active-bgcolor-hover: #4C9700;
+  --dab-disabled-bgcolor: red;
+  --dab-disabled-bgcolor-hover: coral;
+  --dab-action-bgcolor: transparent;
+  --dab-action-color: blue;
+  --dab-action-shadow: #2D87FF;
+  --dab-action-bgcolor-hover: blue;
+  --dab-action-color-hover: #FFF;
+}
+```
 
 ## Others
 ### Get parent tab's children
