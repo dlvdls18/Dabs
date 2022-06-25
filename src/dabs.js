@@ -6,9 +6,7 @@ var Dabs = {
     Dabs.c = Dabs.c || false;
     Dabs.t = Dabs.t || {};
     if(Dabs.c != false) {
-      if(window.Dage == null) {
-        console.warn("Dage is not defined, view https://github.com/dlvdls18/Dage for installation");
-      } else {
+      if(window.Dage != null) {
         if(typeof Dabs.c == "string") {
           Dabs.lca = true;
           var o = {};
@@ -17,9 +15,10 @@ var Dabs = {
             o[`${i_}`] = p.getAttribute("data-page");
             i_++;
           });
-          Dabs.c = JSON.parse(`{ "${Dabs.c}": ${JSON.stringify(o)} }`);
+          Dabs.c = JSON.parse(`{ "${Dage.c}": ${JSON.stringify(o)} }`);
         }
-        if(Dage.a == null) Dage.navigate(Dabs.c["0"]);
+        var ce = Object.entries(Dabs.c)[0][0];
+        if(Dage.a == null) Dage.navigate(Dabs.c[ce]["0"]);
       }
     }
     Dabs.e.forEach(function(el) {
@@ -67,7 +66,6 @@ var Dabs = {
       el.action = function(i,f) {
         Dabs.action(this.getAttribute("data-tab"),i,f);
       }
-      el.props = Dabs.t[n];
       var i = 0;
       Dabs.t[n].c.forEach(function(e) {
         e.setAttribute("data-parent", n);
@@ -98,17 +96,14 @@ var Dabs = {
     });
     e.setAttribute("data-active", "");
     d.a = {i,t:e};
-    if(typeof Dabs.c == "object") {
-      var dct = Dabs.c[t];
-      if(dct != null) {
-        var hn = false;
-        for(var dci in dct) {
-          if(parseInt(dci) == i) {
-            Dage.navigate(dct[dci]);
-            hn = true;
+    if(Dabs.c != null) {
+      for(var dct in Dabs.c) {
+        if(dct == t) {
+          var ct = Dabs.c[dct];
+          for(var dci in ct) {
+            if(i == dci) Dage.navigate(ct[`${dci}`]);
           }
         }
-        if(!hn && dct.other != null) dct.other(i);
       }
     }
     Dabs.update();
@@ -132,34 +127,13 @@ var Dabs = {
     Dabs.t[tab].a$[i] = f;
   },
   connect(conf) {
-    if(typeof conf == "string") {
-      Dabs.c = conf;
-    } else {
-      Dabs.c = conf;
-    }
+    if(window.Dage == null) console.warn("Dage is not defined, view https://github.com/dlvdls18/Dage for installation");
+    Dabs.c = conf;
     Dabs.update();
   },
   disconnect() {
     Dabs.c = false;
     Dabs.lca = false;
-    Dabs.update();
-  },
-  disableTab(tab,i) {
-    Dabs.t[tab].c[i].t.setAttribute("data-disabled", "");
-    if(Dabs.t[tab].a.i == i) {
-      var lt = null;
-      var li = 0;
-      Dabs.t[tab].c.forEach(function(e) {
-        if(e.getAttribute("data-disabled") === null) lt = e;
-        if(!lt) li++;
-      });
-      if(lt) Dabs.t[tab].a = {i:li, t:lt};
-      else Dabs.t[tab].a = {i:-1, t:null};
-    }
-    Dabs.update();
-  },
-  enableTab(tab,i) {
-    Dabs.t[tab].c[i].t.removeAttribute("data-disabled");
     Dabs.update();
   }
 }
