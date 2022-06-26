@@ -107,14 +107,14 @@ myTabEl.props
 // If you disabled the active tab,
 // It will activate the default active tab
 // or the first enabled tab
-// otherwise, no change
-// Using this will update the Dabs
+// otherwise, no change.
+// Using this will reupdate the Dabs
 Dabs.disableTab("MyTab",1);
 ```
 
 ### Enabling tab programmatically
 ```js
-// Using this will update the Dabs
+// Using this will reupdate the Dabs
 Dabs.enableTab("MyTab", 1);
 ```
 
