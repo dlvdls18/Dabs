@@ -8,7 +8,7 @@ With simple design and many useful methods.
 <div data-tab="MyTab" id="myTabEl">
   <div class="dab" data-active="">Dashboard</div>
   <div class="dab">Marketplace</div>
-  <div class="dab" data-prop="">Log Out</div>
+  <div class="dab" data-action="">Log Out</div>
 </div>
 ```
 
