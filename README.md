@@ -5,7 +5,7 @@ A simple **HTML Navigation Tabs** for your beautiful simple web projects.
 With simple design and many useful methods.
 
 ```html
-<div data-dabs="MyTab" id="myTabEl">
+<div data-tab="MyTab" id="myTabEl">
   <div class="dab" data-active="">Dashboard</div>
   <div class="dab">Marketplace</div>
   <div class="dab" data-prop="">Log Out</div>
