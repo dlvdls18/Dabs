@@ -27,8 +27,10 @@ myTabEl.change(function(index) {
 
 ```js
 Dabs.connect({
-  0: "pageDashboard"
-  1: "pageMarketplace"
+  MyTab:
+    0: "pageDashboard"
+    1: "pageMarketplace"
+  }
 });
 ```
 
